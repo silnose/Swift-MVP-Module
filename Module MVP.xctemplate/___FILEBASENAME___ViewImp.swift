@@ -12,7 +12,7 @@ import UIKit
 
 class ___VARIABLE_productName:identifier___ViewImp: UIViewController {
 
-	var presenter: ___VARIABLE_productName:identifier___Presenter
+	var presenter: ___VARIABLE_productName:identifier___Presenter!
 
 	override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,11 +21,22 @@ class ___VARIABLE_productName:identifier___ViewImp: UIViewController {
     }
 
     override open func viewWillAppear(_ animated: Bool) {
+    }
 
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+    }
+
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+
+    public required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
     }
 
 }
