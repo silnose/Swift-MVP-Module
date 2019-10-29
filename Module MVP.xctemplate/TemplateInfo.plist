@@ -47,5 +47,35 @@
 	</array>
 	<key>Template Author</key>
 	<string>Ed</string>
+	<dict>
+    <key>Nodes</key>
+    <array>
+    <string>___FILEBASENAME___MVP.swift</string>
+    <string>View/___FILEBASENAME___ViewImp.swift</string>
+    <string>Presenter/___FILEBASENAME___PresenterImp.swift</string>
+    </array>
+	</dict>
+    <key>Definitions</key>
+    <dict>
+    <key>___FILEBASENAME___MVP.swift</key>
+    <dict>
+        <key>Path</key>
+        <string>___FILEBASENAME___MVP.swift</string>
+    </dict>
+    <key>View/___FILEBASENAME___ViewImp.swift</key> 
+    <dict>
+        <key>Group</key>
+        <string>View</string> 
+        <key>Path</key>
+        <string>___FILEBASENAME___ViewImp.swift</string> 
+    </dict>
+    <key>Presenter/___FILEBASENAME___PresenterImp.swift</key> 
+    <dict>
+        <key>Group</key>
+        <string>Presenter</string> 
+        <key>Path</key>
+        <string>___FILEBASENAME___PresenterImp.swift</string> 
+    </dict>
+</dict>
 </dict>
 </plist>

@@ -31,3 +31,6 @@ This is an example, we're creating a Login module:
 
 ## MVP diagram overview
 ![Preview](/assets/mvp_diagram.png)
+
+
+Thanks to ![khacchan](https://github.com/khacchan/Swift-MVP-Module) 
