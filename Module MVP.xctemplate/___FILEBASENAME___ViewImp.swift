@@ -24,10 +24,6 @@ class ___VARIABLE_productName:identifier___ViewImp: UIViewController {
 
     }
 
-    public required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
